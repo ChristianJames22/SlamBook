@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name (e.g., Eiffel Tower)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type (e.g., Park, Restaurant)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address (e.g., Paris, France)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category (e.g., Tourist Attraction)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+</LinearLayout>

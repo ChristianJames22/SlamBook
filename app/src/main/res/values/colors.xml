@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <color name="deep_purple">#6200EE</color>
+    <color name="deep_purple_light">#EDE7F6</color>
+
+    <!-- Text colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="dark_gray">#404040</color>
+
+
+    <!-- Background colors -->
+    <color name="nav_highlight">#BB86FC</color> <!-- Highlight color for navigation -->
+    <color name="nav_default">#FFFFFF</color> <!-- Default background color -->
+    <color name="transparent">#00000000</color> <!-- Transparent color -->
+</resources>

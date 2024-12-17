@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvProfileDetails" type="id" />
+    <item name="btnChangePicture" type="id" />
+    <item name="imageViewProfile" type="id" />
+    <item name="tvMeDetails" type="id" />
+    <item name="textName" type="id" />
+    <item name="textNickname" type="id" />
+    <item name="textAge" type="id" />
+    <item name="textBirthdate" type="id" />
+    <item name="textSports" type="id" />
+    <item name="iconEditName" type="id" />
+    <item name="iconEditNickname" type="id" />
+    <item name="iconEditBirthdate" type="id" />
+    <item name="iconEditAge" type="id" />
+    <item name="iconEditSports" type="id" />
+    <item name="textViewYear" type="id" />
+</resources>

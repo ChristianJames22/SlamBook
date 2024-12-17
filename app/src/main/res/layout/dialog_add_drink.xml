@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name (e.g., Cappuccino)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category (e.g.,Hot Drinks, Alcoholic)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Flavor (Orange, lemon, lime)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextServingSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Size  (e.g., Small, Medium, Large)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+</LinearLayout>

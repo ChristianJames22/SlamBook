@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title (e.g., Inception)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Genre(s) (e.g., Action, Sci-Fi.)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Release Year:(e.g.,2010)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextDirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Language:(e.g., English)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+</LinearLayout>

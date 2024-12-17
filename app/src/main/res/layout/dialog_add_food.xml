@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name (e.g., Pizza, Apple)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextCuisine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Cuisine Type (e.g., Italian, Asian)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Category e.g., Dessert,Fruits"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description (e.g., Pizza with toppings)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+</LinearLayout>

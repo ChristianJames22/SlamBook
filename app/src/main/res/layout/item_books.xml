@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/text_view_border"
+    android:orientation="horizontal"
+    android:layout_marginEnd="5dp"
+    android:layout_marginStart="5dp"
+    android:padding="8dp">
+
+    <!-- Left Side: Text Content -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewPublicationDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publication Date"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Right Side: Book Icon -->
+    <ImageView
+        android:id="@+id/imageBookIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/books"
+    android:contentDescription="Book Icon" />
+</LinearLayout>

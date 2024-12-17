@@ -1,0 +1,266 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardUseCompatPadding="true"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="16dp">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/textProfileTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="About Me"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Avatar with Name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+      <!-- Circular Avatar -->
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:id="@+id/avatarImage"
+          android:layout_width="72dp"
+          android:layout_height="72dp"
+          android:layout_marginEnd="16dp"
+          android:src="@drawable/avatar" />
+
+      <!-- Name -->
+      <TextView
+          android:id="@+id/textName"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Name: N/A"
+          android:textColor="#000000"
+          android:textSize="18sp"
+          android:textStyle="bold" />
+
+      <ImageView
+          android:id="@+id/iconEditName"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/ic_edit"
+          android:contentDescription="Edit Name"
+          app:tint="@color/black" />
+    </LinearLayout>
+
+    <!-- Nickname -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:layout_marginEnd="8dp"
+          android:src="@drawable/username"
+          android:contentDescription="Nickname Icon" />
+
+      <TextView
+          android:id="@+id/textNickname"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Nickname: N/A"
+          android:textSize="16sp"
+          android:textColor="#000000" />
+
+      <ImageView
+          android:id="@+id/iconEditNickname"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/ic_edit"
+          android:contentDescription="Edit Nickname"
+          app:tint="@color/black" />
+    </LinearLayout>
+
+    <!-- Birthdate -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:layout_marginEnd="8dp"
+          android:src="@drawable/birthday"
+          android:contentDescription="Birthdate Icon" />
+
+      <TextView
+          android:id="@+id/textBirthdate"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Birthdate: N/A"
+          android:textSize="16sp"
+          android:textColor="#000000" />
+
+      <ImageView
+          android:id="@+id/iconEditBirthdate"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/ic_edit"
+          android:contentDescription="Edit Birthdate"
+          app:tint="@color/black" />
+    </LinearLayout>
+
+    <!-- Age -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:layout_marginEnd="8dp"
+          android:src="@drawable/age"
+          android:contentDescription="Age Icon" />
+
+      <TextView
+          android:id="@+id/textAge"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Age: N/A"
+          android:textSize="16sp"
+          android:textColor="#000000" />
+
+      <ImageView
+          android:id="@+id/iconEditAge"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/ic_edit"
+          android:contentDescription="Edit Age"
+          app:tint="@color/black" />
+    </LinearLayout>
+
+    <!-- Sex -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:layout_marginEnd="8dp"
+          android:src="@drawable/sex"
+          android:contentDescription="Gender Icon" />
+
+      <TextView
+          android:id="@+id/textSex"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Sex: N/A"
+          android:textSize="16sp"
+          android:textColor="#000000" />
+
+      <ImageView
+          android:id="@+id/iconEditSex"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/ic_edit"
+          android:contentDescription="Edit Sex"
+          app:tint="@color/black" />
+    </LinearLayout>
+
+    <!-- Hobbies -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:layout_marginEnd="8dp"
+          android:src="@drawable/hobby"
+          android:contentDescription="Hobbies Icon" />
+
+      <TextView
+          android:id="@+id/textHobbies"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Hobbies: N/A"
+          android:textSize="16sp"
+          android:textColor="#000000" />
+
+      <ImageView
+          android:id="@+id/iconEditHobbies"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/ic_edit"
+          android:contentDescription="Edit Hobbies"
+          app:tint="@color/black" />
+    </LinearLayout>
+
+    <!-- Sports -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:layout_marginEnd="8dp"
+          android:src="@drawable/basketball"
+          android:contentDescription="Sports Icon" />
+
+      <TextView
+          android:id="@+id/textSports"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Sports: N/A"
+          android:textSize="16sp"
+          android:textColor="#000000" />
+
+      <ImageView
+          android:id="@+id/iconEditSports"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/ic_edit"
+          android:contentDescription="Edit Sports"
+          app:tint="@color/black" />
+    </LinearLayout>
+  </LinearLayout>
+</androidx.cardview.widget.CardView>

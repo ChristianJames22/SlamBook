@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title (e.g., Bohemian Rhapsody)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Artist(s) (e.g., Queen)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+
+
+    <EditText
+        android:id="@+id/editTextGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Genre(s) (e.g., Rock)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+
+    <EditText
+        android:id="@+id/editTextReleaseYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Release Year (e.g., 1975)"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/text_view_border"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+</LinearLayout>
